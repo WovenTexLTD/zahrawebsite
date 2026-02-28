@@ -6,7 +6,7 @@
 const PROJECTS = [
   {
     id: 'vienna-altbau',
-    title: 'Altbau Apartment Refresh',
+    title: 'ZA 001',
     category: 'Residential',
     location: 'Vienna, Austria',
     year: 2024,
@@ -28,7 +28,7 @@ const PROJECTS = [
   },
   {
     id: 'london-townhouse',
-    title: 'Warm Minimal Townhouse',
+    title: 'ZA 002',
     category: 'Residential',
     location: 'London, United Kingdom',
     year: 2023,
@@ -49,7 +49,7 @@ const PROJECTS = [
   },
   {
     id: 'beirut-retail',
-    title: 'Boutique Retail Corner',
+    title: 'ZA 004',
     category: 'Commercial',
     location: 'Beirut, Lebanon',
     year: 2022,
@@ -70,7 +70,7 @@ const PROJECTS = [
   },
   {
     id: 'zurich-retreat',
-    title: 'Lakeside Family Retreat',
+    title: 'ZA 003',
     category: 'Residential',
     location: 'Zurich, Switzerland',
     year: 2024,
@@ -90,7 +90,7 @@ const PROJECTS = [
   },
   {
     id: 'paris-penthouse',
-    title: 'Studio Penthouse',
+    title: 'ZA 006',
     category: 'Residential',
     location: 'Paris, France',
     year: 2023,
@@ -110,7 +110,7 @@ const PROJECTS = [
   },
   {
     id: 'milan-showroom',
-    title: 'Curated Retail Concept',
+    title: 'ZA 005',
     category: 'Commercial',
     location: 'Milan, Italy',
     year: 2022,
@@ -129,7 +129,7 @@ const PROJECTS = [
   },
   {
     id: 'lisbon-villa',
-    title: 'Heritage Villa',
+    title: 'ZA 007',
     category: 'Residential',
     location: 'Lisbon, Portugal',
     year: 2023,
@@ -149,7 +149,7 @@ const PROJECTS = [
   },
   {
     id: 'marseille-coastal',
-    title: 'Coastal Edit',
+    title: 'ZA 008',
     category: 'Styling',
     location: 'Marseille, France',
     year: 2024,
@@ -169,7 +169,7 @@ const PROJECTS = [
   },
   {
     id: 'dubai-penthouse',
-    title: 'Skyline Penthouse',
+    title: 'ZA 009',
     category: 'Residential',
     location: 'Dubai, UAE',
     year: 2023,

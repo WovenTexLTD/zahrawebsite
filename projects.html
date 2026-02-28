@@ -63,116 +63,99 @@
       </p>
     </header>
 
-    <!-- FILTER CHIPS -->
-    <div class="container">
-      <div class="filter-chips" role="group" aria-label="Filter projects by category">
-        <button class="filter-chip active" data-filter="all">All</button>
-        <button class="filter-chip" data-filter="Residential">Residential</button>
-        <button class="filter-chip" data-filter="Commercial">Commercial</button>
-        <button class="filter-chip" data-filter="Styling">Styling</button>
-      </div>
-    </div>
-
     <!-- PROJECTS GRID -->
-    <section class="section" style="padding-top: 0;" aria-live="polite" aria-label="Projects grid">
+    <section class="section" style="padding-top: 0;" aria-label="Projects gallery">
       <div class="container">
-        <div class="projects-grid" id="projectsGrid">
+        <div class="projects-grid projects-grid--masonry" id="projectsGrid">
 
-          <!-- Residential -->
-          <a href="project-detail.html?id=vienna-altbau" class="project-card fade-in" data-category="Residential">
+          <a href="project-detail.html?id=vienna-altbau" class="project-card fade-in">
             <div class="project-card__image-wrap">
-              <img src="images/residential/apt-living-dining.jpg" alt="Vienna Altbau — living and dining space, art wall, herringbone parquet" loading="lazy">
+              <img src="images/residential/apt-living-dining.jpg" alt="ZA 001 — Vienna, Austria, 2024" loading="lazy">
             </div>
             <p class="project-card__cat">Residential</p>
-            <h2 class="project-card__title">Altbau Apartment Refresh</h2>
+            <h2 class="project-card__title">ZA 001</h2>
             <p class="project-card__meta">Vienna, Austria &middot; 2024</p>
           </a>
 
-          <a href="project-detail.html?id=london-townhouse" class="project-card fade-in" data-category="Residential">
+          <a href="project-detail.html?id=london-townhouse" class="project-card fade-in">
             <div class="project-card__image-wrap">
-              <img src="images/residential/modern-apt-dining.png" alt="Contemporary apartment — gold crescent pendant, dining table, tall windows" loading="lazy">
+              <img src="images/residential/modern-apt-dining.png" alt="ZA 002 — London, UK, 2023" loading="lazy">
             </div>
             <p class="project-card__cat">Residential</p>
-            <h2 class="project-card__title">Warm Minimal Townhouse</h2>
+            <h2 class="project-card__title">ZA 002</h2>
             <p class="project-card__meta">London, UK &middot; 2023</p>
           </a>
 
-          <a href="project-detail.html?id=zurich-retreat" class="project-card fade-in" data-category="Residential">
+          <a href="project-detail.html?id=zurich-retreat" class="project-card fade-in">
             <div class="project-card__image-wrap">
-              <img src="images/residential/modern-apt-openplan.png" alt="Open plan family living — artwork, garden terrace, warm afternoon light" loading="lazy">
+              <img src="images/residential/modern-apt-openplan.png" alt="ZA 003 — Zurich, Switzerland, 2024" loading="lazy">
             </div>
             <p class="project-card__cat">Residential</p>
-            <h2 class="project-card__title">Lakeside Family Retreat</h2>
+            <h2 class="project-card__title">ZA 003</h2>
             <p class="project-card__meta">Zurich, Switzerland &middot; 2024</p>
           </a>
 
-          <!-- Commercial -->
-          <a href="project-detail.html?id=beirut-retail" class="project-card fade-in" data-category="Commercial">
+          <a href="project-detail.html?id=beirut-retail" class="project-card fade-in">
             <div class="project-card__image-wrap">
-              <img src="images/commercial/cigar-lounge.png" alt="Boutique lounge — leather seating, marble fireplace, walnut display shelves" loading="lazy">
+              <img src="images/commercial/cigar-lounge.png" alt="ZA 004 — Beirut, Lebanon, 2022" loading="lazy">
             </div>
             <p class="project-card__cat">Commercial</p>
-            <h2 class="project-card__title">Boutique Retail Corner</h2>
+            <h2 class="project-card__title">ZA 004</h2>
             <p class="project-card__meta">Beirut, Lebanon &middot; 2022</p>
           </a>
 
-          <a href="project-detail.html?id=milan-showroom" class="project-card fade-in" data-category="Commercial">
+          <a href="project-detail.html?id=milan-showroom" class="project-card fade-in">
             <div class="project-card__image-wrap">
-              <img src="images/commercial/inshades-store.png" alt="Eyewear retail concept — curved white shell structure, full-height display" loading="lazy">
+              <img src="images/commercial/inshades-store.png" alt="ZA 005 — Milan, Italy, 2022" loading="lazy">
             </div>
             <p class="project-card__cat">Commercial</p>
-            <h2 class="project-card__title">Curated Design Showroom</h2>
+            <h2 class="project-card__title">ZA 005</h2>
             <p class="project-card__meta">Milan, Italy &middot; 2022</p>
           </a>
 
-          <!-- Residential -->
-          <a href="project-detail.html?id=paris-penthouse" class="project-card fade-in" data-category="Residential">
+          <a href="project-detail.html?id=paris-penthouse" class="project-card fade-in">
             <div class="project-card__image-wrap">
-              <img src="images/residential/modern-apt-lounge.png" alt="Apartment lounge — abstract art, sculpted sofa, globe pendant" loading="lazy">
+              <img src="images/residential/modern-apt-lounge.png" alt="ZA 006 — Paris, France, 2023" loading="lazy">
             </div>
             <p class="project-card__cat">Residential</p>
-            <h2 class="project-card__title">Studio Penthouse</h2>
+            <h2 class="project-card__title">ZA 006</h2>
             <p class="project-card__meta">Paris, France &middot; 2023</p>
           </a>
 
-          <!-- Styling -->
-          <a href="project-detail.html?id=lisbon-villa" class="project-card fade-in" data-category="Residential">
+          <a href="project-detail.html?id=lisbon-villa" class="project-card fade-in">
             <div class="project-card__image-wrap">
-              <img src="images/residential/apt-armchair.jpg" alt="Sitting room — olive velvet armchair, large plant, herringbone floor" loading="lazy">
+              <img src="images/residential/apt-armchair.jpg" alt="ZA 007 — Lisbon, Portugal, 2023" loading="lazy">
             </div>
             <p class="project-card__cat">Residential</p>
-            <h2 class="project-card__title">Heritage Villa</h2>
+            <h2 class="project-card__title">ZA 007</h2>
             <p class="project-card__meta">Lisbon, Portugal &middot; 2023</p>
           </a>
 
-          <a href="project-detail.html?id=marseille-coastal" class="project-card fade-in" data-category="Styling">
+          <a href="project-detail.html?id=marseille-coastal" class="project-card fade-in">
             <div class="project-card__image-wrap">
-              <img src="images/residential/modern-apt-living.png" alt="Light-filled living space — cream sofa, teal accent sideboard, warm lighting" loading="lazy">
+              <img src="images/residential/modern-apt-living.png" alt="ZA 008 — Marseille, France, 2024" loading="lazy">
             </div>
             <p class="project-card__cat">Styling</p>
-            <h2 class="project-card__title">Coastal Edit</h2>
+            <h2 class="project-card__title">ZA 008</h2>
             <p class="project-card__meta">Marseille, France &middot; 2024</p>
           </a>
 
-          <a href="project-detail.html?id=dubai-penthouse" class="project-card fade-in" data-category="Residential">
+          <a href="project-detail.html?id=dubai-penthouse" class="project-card fade-in">
             <div class="project-card__image-wrap">
-              <img src="images/commercial/cigar-store-luxury.png" alt="Luxury interior — dark lacquer, brass accents, curated display cases" loading="lazy">
+              <img src="images/commercial/cigar-store-luxury.png" alt="ZA 009 — Dubai, UAE, 2023" loading="lazy">
             </div>
             <p class="project-card__cat">Residential</p>
-            <h2 class="project-card__title">Skyline Penthouse</h2>
+            <h2 class="project-card__title">ZA 009</h2>
             <p class="project-card__meta">Dubai, UAE &middot; 2023</p>
           </a>
 
         </div>
 
-        <!-- No results message -->
         <p
           id="noResults"
-          style="display: none; text-align: center; color: var(--text-light); padding: 4rem 0; font-style: italic;"
-          role="status"
+          style="display: none;"
           aria-live="polite"
         >
-          No projects found in this category.
         </p>
 
       </div>

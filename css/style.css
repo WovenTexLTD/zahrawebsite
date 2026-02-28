@@ -446,6 +446,30 @@ p {
   grid-template-columns: repeat(2, 1fr);
 }
 
+/* Masonry — natural image sizes, no forced ratio */
+.projects-grid--masonry {
+  display: block;
+  columns: 3;
+  column-gap: 1.6rem;
+}
+
+.projects-grid--masonry .project-card {
+  break-inside: avoid;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+
+.projects-grid--masonry .project-card__image-wrap {
+  aspect-ratio: unset;
+  height: auto;
+}
+
+.projects-grid--masonry .project-card__image-wrap img {
+  height: auto;
+  object-fit: unset;
+}
+
 .project-card {
   display: block;
   cursor: pointer;
@@ -1174,6 +1198,7 @@ p {
 
 @media (max-width: 900px) {
   .projects-grid { grid-template-columns: repeat(2, 1fr); }
+  .projects-grid--masonry { columns: 2; }
 
   .about-strip {
     grid-template-columns: 1fr;
@@ -1222,6 +1247,7 @@ p {
   .nav__hamburger { display: flex; }
 
   .projects-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .projects-grid--masonry { columns: 1; }
 
   .project-overview { grid-template-columns: 1fr 1fr; }
 
