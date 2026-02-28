@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zahra — Interior Architecture & Design. Crafting timeless, considered interiors for private residences and select commercial spaces across Europe and the Middle East.">
+  <title>Zahra — Interior Architecture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Zahra Interior Architecture — Home">
+        <span class="nav__logo-name">Zahra</span>
+        <span class="nav__logo-sub">Interior Architecture</span>
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="index.html"    class="nav__link active" aria-current="page">Home</a></li>
+        <li><a href="projects.html" class="nav__link">Projects</a></li>
+        <li><a href="about.html"    class="nav__link">About</a></li>
+        <li><a href="contact.html"  class="nav__link">Contact</a></li>
+      </ul>
+
+      <a href="contact.html" class="nav__cta">Get in Touch</a>
+
+      <button
+        class="nav__hamburger"
+        id="hamburger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobileNav"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile navigation drawer -->
+  <div class="nav__mobile" id="mobileNav" role="dialog" aria-modal="true" aria-label="Mobile navigation" hidden>
+    <a href="index.html"    class="nav__link active" aria-current="page">Home</a>
+    <a href="projects.html" class="nav__link">Projects</a>
+    <a href="about.html"    class="nav__link">About</a>
+    <a href="contact.html"  class="nav__link">Contact</a>
+  </div>
+
+  <!-- ═══ MAIN ═══ -->
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero__bg" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=85&auto=format&fit=crop"
+          alt=""
+          fetchpriority="high"
+          role="presentation"
+        >
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow">Interior Architecture &middot; Private Residences &middot; Commercial</p>
+        <h1 class="hero__title">Spaces That Speak<br>for Themselves</h1>
+        <p class="hero__subtitle">
+          Considered design for those who value quiet luxury — where structure,
+          material, and light come together with intention.
+        </p>
+        <div class="hero__actions">
+          <a href="projects.html" class="btn btn--primary">View Projects</a>
+          <a href="contact.html"  class="btn btn--outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <div class="hero__scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- SERVICES STRIP -->
+    <div class="services-strip" aria-label="Services offered">
+      <div class="services-strip__inner">
+        <span class="services-strip__item">Full Interior Design</span>
+        <span class="services-strip__item">Space Planning</span>
+        <span class="services-strip__item">Lighting &amp; Materials</span>
+        <span class="services-strip__item">FF&amp;E / Styling</span>
+        <span class="services-strip__item">Site Coordination</span>
+      </div>
+    </div>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section__header fade-in">
+          <p class="eyebrow">Selected Work</p>
+          <h2 class="section__title" id="projects-heading">Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <a href="project-detail.html?id=vienna-altbau" class="project-card fade-in">
+            <div class="project-card__image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1586023492125-27b2a9ce0d4e?w=800&q=80&auto=format&fit=crop"
+                alt="Altbau apartment in Vienna — warm plasterwork, restored cornices, bespoke cabinetry"
+                loading="lazy"
+              >
+            </div>
+            <p class="project-card__cat">Residential</p>
+            <h3 class="project-card__title">Altbau Apartment Refresh</h3>
+            <p class="project-card__meta">Vienna, Austria &middot; 2024</p>
+          </a>
+
+          <a href="project-detail.html?id=london-townhouse" class="project-card fade-in">
+            <div class="project-card__image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800&q=80&auto=format&fit=crop"
+                alt="Warm minimal London townhouse — natural oak, linen upholstery, calm palette"
+                loading="lazy"
+              >
+            </div>
+            <p class="project-card__cat">Residential</p>
+            <h3 class="project-card__title">Warm Minimal Townhouse</h3>
+            <p class="project-card__meta">London, UK &middot; 2023</p>
+          </a>
+
+          <a href="project-detail.html?id=beirut-retail" class="project-card fade-in">
+            <div class="project-card__image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80&auto=format&fit=crop"
+                alt="Boutique retail corner in Beirut — curated commercial interior with warm brass details"
+                loading="lazy"
+              >
+            </div>
+            <p class="project-card__cat">Commercial</p>
+            <h3 class="project-card__title">Boutique Retail Corner</h3>
+            <p class="project-card__meta">Beirut, Lebanon &middot; 2022</p>
+          </a>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;" class="fade-in">
+          <a href="projects.html" class="btn btn--outline-dark">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT STRIP -->
+    <section class="section section--alt" aria-labelledby="work-heading">
+      <div class="container">
+        <div class="about-strip">
+
+          <div class="fade-in">
+            <p class="eyebrow">My Line of Work</p>
+            <h2 class="section__title" id="work-heading" style="margin: 1rem 0 2rem;">
+              Where Structure<br>Meets the Sensory
+            </h2>
+            <div class="divider"></div>
+            <p>
+              Good design is felt before it is seen. I work across the full arc of a project —
+              from the first conversation about how a space should feel, to the careful selection
+              of materials and finishes that give it character. Whether the brief is a private
+              apartment in need of reinvention or a commercial space seeking a distinctive identity,
+              the approach is the same: rigorous, considered, and deeply personal.
+            </p>
+            <p style="margin-top: 1.2rem;">
+              My process begins with listening. Every project starts with understanding how people
+              actually inhabit a space — their rhythms, their references, their relationship with
+              light and proportion. From that foundation, a design takes form that is neither
+              trend-driven nor purely academic, but something quieter and more enduring.
+            </p>
+            <a href="about.html" class="btn btn--outline-dark" style="margin-top: 2.5rem; display: inline-block;">
+              About the Studio
+            </a>
+          </div>
+
+          <div class="fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1615529182904-14819c35db37?w=900&q=80&auto=format&fit=crop"
+              alt="A carefully composed interior space showing attention to materiality, texture, and light"
+              loading="lazy"
+              style="width: 100%; aspect-ratio: 4/5; object-fit: cover;"
+            >
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE SECTION -->
+    <section class="quote-section" aria-label="Studio philosophy">
+      <div class="container--narrow">
+        <span class="quote-mark fade-in" aria-hidden="true">&ldquo;</span>
+        <blockquote class="quote-text fade-in">
+          The best rooms have something to say — they hold memory, intention,
+          and the quiet confidence of things chosen well.
+        </blockquote>
+        <p class="quote-author fade-in">— Studio Philosophy</p>
+      </div>
+    </section>
+
+    <!-- SECOND PROJECT ROW (teaser) -->
+    <section class="section" aria-labelledby="more-projects-heading">
+      <div class="container">
+        <div class="section__header fade-in">
+          <p class="eyebrow">More Work</p>
+          <h2 class="section__title" id="more-projects-heading">Recently Completed</h2>
+        </div>
+
+        <div class="projects-grid projects-grid--two">
+
+          <a href="project-detail.html?id=zurich-retreat" class="project-card fade-in">
+            <div class="project-card__image-wrap" style="aspect-ratio: 4/3;">
+              <img
+                src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=900&q=80&auto=format&fit=crop"
+                alt="Lakeside family retreat in Zurich — understated materials, panoramic living"
+                loading="lazy"
+              >
+            </div>
+            <p class="project-card__cat">Residential</p>
+            <h3 class="project-card__title">Lakeside Family Retreat</h3>
+            <p class="project-card__meta">Zurich, Switzerland &middot; 2024</p>
+          </a>
+
+          <a href="project-detail.html?id=paris-penthouse" class="project-card fade-in">
+            <div class="project-card__image-wrap" style="aspect-ratio: 4/3;">
+              <img
+                src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80&auto=format&fit=crop"
+                alt="Studio penthouse in Paris — layered textures, Haussmann bones, modern restraint"
+                loading="lazy"
+              >
+            </div>
+            <p class="project-card__cat">Residential</p>
+            <h3 class="project-card__title">Studio Penthouse</h3>
+            <p class="project-card__meta">Paris, France &middot; 2023</p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div>
+        <span class="footer__logo-name">Zahra</span>
+        <span class="footer__tagline">Interior Architecture</span>
+        <p class="footer__desc">
+          Crafting considered interiors for private residences and select commercial
+          spaces across Europe and the Middle East.
+        </p>
+      </div>
+
+      <div>
+        <p class="footer__heading">Navigation</p>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+      <div>
+        <p class="footer__heading">Contact</p>
+        <div class="footer__info">
+          <p>Vienna, Austria &middot; London, UK</p>
+          <a href="mailto:hello@zahrastudio.com">hello@zahrastudio.com</a>
+          <a href="#" aria-label="Follow on Instagram">Instagram</a>
+          <a href="#" aria-label="Connect on LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2024 Zahra Interior Architecture. All rights reserved.</p>
+      <p>Vienna &middot; London &middot; Beirut</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

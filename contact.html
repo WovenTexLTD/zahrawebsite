@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Zahra Interior Architecture — begin a conversation about your project or commission.">
+  <title>Contact — Zahra Interior Architecture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Zahra Interior Architecture — Home">
+        <span class="nav__logo-name">Zahra</span>
+        <span class="nav__logo-sub">Interior Architecture</span>
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="index.html"    class="nav__link">Home</a></li>
+        <li><a href="projects.html" class="nav__link">Projects</a></li>
+        <li><a href="about.html"    class="nav__link">About</a></li>
+        <li><a href="contact.html"  class="nav__link active" aria-current="page">Contact</a></li>
+      </ul>
+
+      <a href="contact.html" class="nav__cta" aria-current="page">Get in Touch</a>
+
+      <button
+        class="nav__hamburger"
+        id="hamburger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobileNav"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" id="mobileNav" role="dialog" aria-modal="true" aria-label="Mobile navigation" hidden>
+    <a href="index.html"    class="nav__link">Home</a>
+    <a href="projects.html" class="nav__link">Projects</a>
+    <a href="about.html"    class="nav__link">About</a>
+    <a href="contact.html"  class="nav__link active" aria-current="page">Contact</a>
+  </div>
+
+  <!-- ═══ MAIN ═══ -->
+  <main id="main">
+
+    <!-- PAGE HEADER -->
+    <header class="contact-page-header">
+      <p class="eyebrow fade-in" style="margin-bottom: 1rem;">Let's Work Together</p>
+      <h1 class="fade-in">Begin a Conversation.</h1>
+      <p class="fade-in">
+        Every project starts with a brief exchange. Tell me a little about what you have in mind.
+      </p>
+    </header>
+
+    <!-- CONTACT LAYOUT -->
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- FORM -->
+        <div>
+          <!-- Form itself -->
+          <form id="contactForm" novalidate aria-label="Contact form">
+
+            <!-- Name row -->
+            <div class="form-row">
+              <div class="contact-form-group">
+                <label for="firstName">First Name <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  autocomplete="given-name"
+                  placeholder="Layla"
+                  required
+                  aria-required="true"
+                >
+                <p class="field-error" id="firstNameError" role="alert">Please enter your first name.</p>
+              </div>
+              <div class="contact-form-group">
+                <label for="lastName">Last Name <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  autocomplete="family-name"
+                  placeholder="Al-Rashid"
+                  required
+                  aria-required="true"
+                >
+                <p class="field-error" id="lastNameError" role="alert">Please enter your last name.</p>
+              </div>
+            </div>
+
+            <!-- Email + Phone -->
+            <div class="form-row" style="margin-top: 0;">
+              <div class="contact-form-group">
+                <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  placeholder="layla@example.com"
+                  required
+                  aria-required="true"
+                >
+                <p class="field-error" id="emailError" role="alert">Please enter a valid email address.</p>
+              </div>
+              <div class="contact-form-group">
+                <label for="phone">Phone Number <span style="color: var(--text-light); font-size: 0.6rem;">(optional)</span></label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  autocomplete="tel"
+                  placeholder="+43 …"
+                >
+              </div>
+            </div>
+
+            <!-- Budget -->
+            <div class="contact-form-group">
+              <label for="budget">Approximate Project Budget <span aria-hidden="true">*</span></label>
+              <select id="budget" name="budget" required aria-required="true">
+                <option value="" disabled selected>Select a range</option>
+                <option value="under50k">Under €50,000</option>
+                <option value="50to100k">€50,000 – €100,000</option>
+                <option value="100to250k">€100,000 – €250,000</option>
+                <option value="250to500k">€250,000 – €500,000</option>
+                <option value="500kplus">€500,000+</option>
+                <option value="unsure">Not yet decided</option>
+              </select>
+              <p class="field-error" id="budgetError" role="alert">Please select a budget range.</p>
+            </div>
+
+            <!-- Services -->
+            <div class="contact-form-group">
+              <label as="legend">Service Interest</label>
+              <div class="checkboxes" role="group" aria-label="Select services you are interested in">
+                <label class="checkbox-label">
+                  <input type="checkbox" name="service" value="full-design">
+                  Full Interior Design
+                </label>
+                <label class="checkbox-label">
+                  <input type="checkbox" name="service" value="renovation">
+                  Renovation &amp; Space Planning
+                </label>
+                <label class="checkbox-label">
+                  <input type="checkbox" name="service" value="lighting">
+                  Lighting Design &amp; Materials
+                </label>
+                <label class="checkbox-label">
+                  <input type="checkbox" name="service" value="ffe">
+                  FF&amp;E Specification &amp; Styling
+                </label>
+                <label class="checkbox-label">
+                  <input type="checkbox" name="service" value="coordination">
+                  Site Visits &amp; Coordination
+                </label>
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div class="contact-form-group">
+              <label for="message">Your Message <span aria-hidden="true">*</span></label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project — the space, the feeling you're after, the timeline if you have one."
+                required
+                aria-required="true"
+              ></textarea>
+              <p class="field-error" id="messageError" role="alert">Please write a brief message.</p>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-submit">
+              <button type="submit" class="btn btn--primary">Send Message</button>
+              <p style="font-size: 0.72rem; color: var(--text-light); margin-top: 1rem; letter-spacing: 0.04em;">
+                I respond to all enquiries within 2–3 working days.
+              </p>
+            </div>
+
+          </form>
+
+          <!-- Success state -->
+          <div class="form-success" id="formSuccess" aria-live="polite">
+            <p class="form-success__mark">Message received</p>
+            <h2>Thank you.</h2>
+            <p>
+              I've received your message and will be in touch within a few days.
+              I look forward to hearing more about your project.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- CONTACT INFO -->
+        <aside class="contact-info-col" aria-label="Contact details">
+
+          <div class="contact-info-item fade-in">
+            <label>Studio</label>
+            <p>Zahra Interior Architecture</p>
+          </div>
+
+          <div class="contact-info-item fade-in">
+            <label>Based In</label>
+            <p>Vienna, Austria<br>London, United Kingdom</p>
+          </div>
+
+          <div class="contact-info-item fade-in">
+            <label>Active Regions</label>
+            <p>Austria · Germany<br>UK · France<br>Levant · Gulf</p>
+          </div>
+
+          <div class="contact-info-item fade-in">
+            <label>Email</label>
+            <a href="mailto:hello@zahrastudio.com">hello@zahrastudio.com</a>
+          </div>
+
+          <div class="contact-info-item fade-in">
+            <label>Instagram</label>
+            <a href="#" aria-label="Zahra Interior Architecture on Instagram">@zahrastudio</a>
+          </div>
+
+          <div class="contact-info-item fade-in">
+            <label>LinkedIn</label>
+            <a href="#" aria-label="Zahra on LinkedIn">Zahra Interior Architecture</a>
+          </div>
+
+          <div
+            class="fade-in"
+            style="
+              margin-top: 3rem;
+              padding-top: 2.5rem;
+              border-top: 1px solid var(--border);
+              font-size: 0.82rem;
+              color: var(--text-light);
+              line-height: 1.8;
+            "
+          >
+            <p>
+              I take on a select number of new projects each year, with priority given to
+              full-scope residential commissions. If you have something smaller in mind,
+              do still reach out — I'm always happy to talk.
+            </p>
+          </div>
+
+        </aside>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div>
+        <span class="footer__logo-name">Zahra</span>
+        <span class="footer__tagline">Interior Architecture</span>
+        <p class="footer__desc">
+          Crafting considered interiors for private residences and select commercial
+          spaces across Europe and the Middle East.
+        </p>
+      </div>
+
+      <div>
+        <p class="footer__heading">Navigation</p>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+      <div>
+        <p class="footer__heading">Contact</p>
+        <div class="footer__info">
+          <p>Vienna, Austria &middot; London, UK</p>
+          <a href="mailto:hello@zahrastudio.com">hello@zahrastudio.com</a>
+          <a href="#" aria-label="Follow on Instagram">Instagram</a>
+          <a href="#" aria-label="Connect on LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2024 Zahra Interior Architecture. All rights reserved.</p>
+      <p>Vienna &middot; London &middot; Beirut</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
