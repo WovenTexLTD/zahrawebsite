@@ -967,7 +967,7 @@ p {
   margin-bottom: 0.6rem;
 }
 
-.contact-form-group input,
+.contact-form-group input:not([type="checkbox"]),
 .contact-form-group select,
 .contact-form-group textarea {
   width: 100%;
@@ -985,13 +985,13 @@ p {
   -webkit-appearance: none;
 }
 
-.contact-form-group input:focus,
+.contact-form-group input:not([type="checkbox"]):focus,
 .contact-form-group select:focus,
 .contact-form-group textarea:focus {
   border-bottom-color: var(--accent);
 }
 
-.contact-form-group input::placeholder,
+.contact-form-group input:not([type="checkbox"])::placeholder,
 .contact-form-group textarea::placeholder {
   color: var(--border);
 }
