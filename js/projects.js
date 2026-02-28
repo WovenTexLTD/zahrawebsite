@@ -64,7 +64,6 @@ const PROJECTS = [
     images: [
       { src: 'images/commercial/cigar-lounge.png',        alt: 'Lounge — leather seating, marble fireplace, walnut display shelves', wide: true },
       { src: 'images/commercial/cigar-shop-shelves.png',  alt: 'Retail wall — floor-to-ceiling walnut shelving, track lighting' },
-      { src: 'images/commercial/cigar-shop-warm.png',     alt: 'Display room — warm-lit walnut cases, glass-top display table' },
       { src: 'images/commercial/cigar-store-luxury.png',  alt: 'Luxury retail floor — dark lacquer, brass fittings, display counters' }
     ]
   },
