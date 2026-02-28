@@ -12,19 +12,18 @@ const PROJECTS = [
     year: 2024,
     scope: 'Full Interior Design & Renovation',
     status: 'Completed',
-    coverImage: 'https://images.unsplash.com/photo-1586023492125-27b2a9ce0d4e?w=1600&q=85&auto=format&fit=crop',
-    coverAlt: 'Vienna Altbau apartment — warm plasterwork, period cornices, bespoke oak cabinetry',
+    coverImage: 'images/residential/apt-living-dining.jpg',
+    coverAlt: 'Vienna Altbau apartment — open living and dining space with art-hung walls and warm chandelier',
     narrative: [
-      'This third-floor apartment in Vienna's 4th district came to the studio with a familiar problem: a beautiful late-19th-century shell that had been subdivided and modernised in ways that worked against its proportions. Our task was to restore its spatial logic — reconnecting the reception rooms, reinstating original ceiling heights where possible, and introducing a material palette that felt at once contemporary and true to the building.',
-      'The tonal language was built around warm limewash plaster, pale oak, and aged brass — materials chosen for their ability to absorb and reflect the particular light that comes off Vienna's Ringstrasse buildings in the late afternoon. The client's collection of Central European modernist ceramics gave us a reference point for colour and weight throughout.'
+      'This third-floor apartment in Vienna\'s 4th district came to the studio with a familiar problem: a beautiful late-19th-century shell that had been subdivided and modernised in ways that worked against its proportions. Our task was to restore its spatial logic — reconnecting the reception rooms, reinstating original ceiling heights where possible, and introducing a material palette that felt at once contemporary and true to the building.',
+      'The tonal language was built around warm plasterwork, pale oak, and aged brass — materials chosen for their ability to absorb and reflect the particular light that comes off Vienna\'s Ringstrasse buildings in the late afternoon. The client\'s collection of art gave us a reference point for colour and weight throughout.'
     ],
     images: [
-      { src: 'https://images.unsplash.com/photo-1586023492125-27b2a9ce0d4e?w=1400&q=80&auto=format&fit=crop', alt: 'Main living space — limewash walls, oak floors, original cornice detail', wide: true },
-      { src: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=900&q=80&auto=format&fit=crop', alt: 'Reading alcove with bespoke built-in joinery' },
-      { src: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=900&q=80&auto=format&fit=crop', alt: 'Kitchen — honed stone surfaces, aged brass fittings' },
-      { src: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80&auto=format&fit=crop', alt: 'Master bedroom — linen drapery, soft warm palette' },
-      { src: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80&auto=format&fit=crop', alt: 'Detail — ceramics collection integrated into shelving' },
-      { src: 'https://images.unsplash.com/photo-1616046229478-9901369be34c?w=900&q=80&auto=format&fit=crop', alt: 'Bathroom — terrazzo floor, curved plaster walls' }
+      { src: 'images/residential/apt-living-dining.jpg', alt: 'Main living and dining space — art wall, modern chandelier, herringbone parquet', wide: true },
+      { src: 'images/residential/apt-armchair.jpg',      alt: 'Sitting room — olive velvet armchair, large plant, herringbone floor' },
+      { src: 'images/residential/apt-kitchen.jpg',       alt: 'Kitchen — dark island, walnut detail, marble fireplace beyond' },
+      { src: 'images/residential/apt-bathroom.jpg',      alt: 'Bathroom — teal walls, subway tile, brass fixtures, ornate mirror' },
+      { src: 'images/residential/apt-fireplace.jpg',     alt: 'Salon — ornate gold mirror over fireplace, warm wall sconces' }
     ]
   },
   {
@@ -35,18 +34,17 @@ const PROJECTS = [
     year: 2023,
     scope: 'Full Interior Design, FF&E',
     status: 'Completed',
-    coverImage: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1600&q=85&auto=format&fit=crop',
-    coverAlt: 'London townhouse living room — natural oak, linen upholstery, layered warm tones',
+    coverImage: 'images/residential/modern-apt-dining.png',
+    coverAlt: 'Contemporary apartment — gold crescent pendant, round dining table, tall curtained windows',
     narrative: [
       'A Victorian terraced house in Islington, stripped back and rebuilt for a young family who wanted their home to feel calm without being cold. The brief was specific: warmth, but not rustic. Minimal, but not austere. A house that works hard — for children, for entertaining, for everyday life — without any of that effort being visible.',
-      'Natural oak runs throughout the ground floor, continuing into a new rear extension that opens onto a south-facing garden. Upholstery is confined to a warm sandy linen; the only pattern in the house comes from the kitchen's handmade tile splashback, chosen by the client's eldest daughter during a visit to a Portuguese workshop.'
+      'Natural oak runs throughout the ground floor, continuing into a new rear extension that opens onto a south-facing garden. Upholstery is confined to a warm sandy linen; the only pattern in the house comes from the kitchen\'s handmade tile splashback, chosen by the client\'s eldest daughter during a visit to a Portuguese workshop.'
     ],
     images: [
-      { src: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1400&q=80&auto=format&fit=crop', alt: 'Open plan ground floor — oak, linen, south light', wide: true },
-      { src: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=900&q=80&auto=format&fit=crop', alt: 'Kitchen extension — handmade tiles, long dining table' },
-      { src: 'https://images.unsplash.com/photo-1586023492125-27b2a9ce0d4e?w=900&q=80&auto=format&fit=crop', alt: 'Living room detail — layered textiles, reading lamp' },
-      { src: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80&auto=format&fit=crop', alt: 'Master bedroom — simple geometry, warm tones' },
-      { src: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80&auto=format&fit=crop', alt: 'Hallway — original Victorian tiles restored' }
+      { src: 'images/residential/modern-apt-dining.png', alt: 'Dining room — gold crescent chandelier, round table, floor-length curtains', wide: true },
+      { src: 'images/residential/modern-apt-living.png', alt: 'Living space connecting to dining — cream sofa, teal sideboard, warm lamp' },
+      { src: 'images/residential/modern-apt-lounge.png', alt: 'Lounge — abstract art, sculpted sofa, globe pendant' },
+      { src: 'images/residential/modern-apt-openplan.png', alt: 'Open plan living room — colourful artwork, garden doors, warm afternoon light' }
     ]
   },
   {
@@ -57,17 +55,17 @@ const PROJECTS = [
     year: 2022,
     scope: 'Commercial Interior Design',
     status: 'Completed',
-    coverImage: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1600&q=85&auto=format&fit=crop',
-    coverAlt: 'Boutique retail interior in Beirut — warm brass accents, considered object display',
+    coverImage: 'images/commercial/cigar-lounge.png',
+    coverAlt: 'Boutique cigar lounge — leather seating, marble fireplace, walnut display shelves',
     narrative: [
-      'A 120 m² retail unit in Saifi Village, designed for a Lebanese brand of handmade leather goods and home objects. The space needed to function as both shop and gallery — displaying product without feeling commercial, creating a destination rather than a transaction point.',
-      'The design is built around a series of oak display plinths and wall-mounted brass rail systems that can be reconfigured seasonally. A single raw concrete ceiling bridges old and new, referencing Beirut's layered architectural history without sentimentality. Lighting was designed to be gallery-standard, warm but precise.'
+      'A premium retail and lounge concept in Beirut, designed to serve both as a curated retail destination and a private members\' sitting room. The brief called for warmth and confidence — a space that felt as though it had been assembled gradually, over time, rather than installed all at once.',
+      'The design is anchored by a walnut shelving system that wraps two walls floor-to-ceiling, a marble fireplace surround, and low leather seating arranged for conversation rather than transaction. Lighting is warm and directional, placing product in a flattering but unforced context.'
     ],
     images: [
-      { src: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1400&q=80&auto=format&fit=crop', alt: 'Main retail floor — oak plinths, brass rail system', wide: true },
-      { src: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=80&auto=format&fit=crop', alt: 'Detail — product display on oak pedestal' },
-      { src: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=900&q=80&auto=format&fit=crop', alt: 'Window display — seasonal installation' },
-      { src: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80&auto=format&fit=crop', alt: 'Back room — archive and workshop space' }
+      { src: 'images/commercial/cigar-lounge.png',        alt: 'Lounge — leather seating, marble fireplace, walnut display shelves', wide: true },
+      { src: 'images/commercial/cigar-shop-shelves.png',  alt: 'Retail wall — floor-to-ceiling walnut shelving, track lighting' },
+      { src: 'images/commercial/cigar-shop-warm.png',     alt: 'Display room — warm-lit walnut cases, glass-top display table' },
+      { src: 'images/commercial/cigar-store-luxury.png',  alt: 'Luxury retail floor — dark lacquer, brass fittings, display counters' }
     ]
   },
   {
@@ -78,18 +76,16 @@ const PROJECTS = [
     year: 2024,
     scope: 'Full Interior Design, Renovation & Landscaping Liaison',
     status: 'Completed',
-    coverImage: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1600&q=85&auto=format&fit=crop',
-    coverAlt: 'Lakeside retreat near Zurich — panoramic glazing, understated material palette',
+    coverImage: 'images/residential/modern-apt-openplan.png',
+    coverAlt: 'Open plan family living room — colourful artwork, garden terrace beyond, warm afternoon light',
     narrative: [
-      'A 1970s lakeside house on the Zürichsee, substantially reconfigured for a family of five. The original structure was well-positioned but poorly resolved — a series of low, dark rooms that missed the view they were built for. Working with the client's architect, we opened the plan entirely, rebuilt the interior envelope, and designed the interiors around a single idea: maximum connection to the lake and the changing quality of Swiss alpine light.',
-      'Materials were chosen for their ability to feel quiet and recede. Raw concrete, untreated oak, undyed wool — a palette that asks nothing of the eye and leaves all attention to the water outside.'
+      'A lakeside house substantially reconfigured for a family of five. The original structure was well-positioned but poorly resolved — a series of low, dark rooms that missed the view they were built for. Working with the client\'s architect, we opened the plan entirely and designed the interiors around a single idea: maximum connection to the landscape and the changing quality of light.',
+      'Materials were chosen for their ability to feel quiet and recede. Raw concrete, untreated oak, undyed wool — a palette that asks nothing of the eye and leaves all attention to the garden and water outside.'
     ],
     images: [
-      { src: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1400&q=80&auto=format&fit=crop', alt: 'Main living space — panoramic lake view, concrete and oak', wide: true },
-      { src: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=900&q=80&auto=format&fit=crop', alt: 'Kitchen — long worktop, view to garden' },
-      { src: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=900&q=80&auto=format&fit=crop', alt: 'Children's room — simple bunk, natural light' },
-      { src: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80&auto=format&fit=crop', alt: 'Study — library wall, lake glimpse' },
-      { src: 'https://images.unsplash.com/photo-1616046229478-9901369be34c?w=900&q=80&auto=format&fit=crop', alt: 'Terrace — connection between inside and water' }
+      { src: 'images/residential/modern-apt-openplan.png', alt: 'Main living space — open plan, artwork, garden doors', wide: true },
+      { src: 'images/residential/modern-apt-living.png',   alt: 'Living zone — connected rooms, warm layered lighting' },
+      { src: 'images/residential/modern-apt-lounge.png',   alt: 'Lounge corner — sculptural furniture, curated objects' }
     ]
   },
   {
@@ -100,37 +96,35 @@ const PROJECTS = [
     year: 2023,
     scope: 'Interior Design & Bespoke Furniture',
     status: 'Completed',
-    coverImage: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=1600&q=85&auto=format&fit=crop',
-    coverAlt: 'Parisian penthouse — layered textures, Haussmann bones, restrained contemporary palette',
+    coverImage: 'images/residential/modern-apt-lounge.png',
+    coverAlt: 'Parisian apartment — abstract art, sculpted low sofa, globe pendant, herringbone parquet',
     narrative: [
-      'A 7th arrondissement duplex penthouse for a writer and art collector, brought to us in near-original Haussmann condition. The client wanted nothing superfluous — a home that supported work and contemplation above all else, with just enough space for books, objects, and light.',
-      'We preserved every original element worth preserving: the herringbone oak parquet, the cast iron radiator covers, the curved plasterwork. The contemporary elements — a long walnut desk, bespoke storage running the full width of the library wall — were designed to feel as though they had always been there.'
+      'A duplex penthouse for a writer and art collector, brought to us in near-original condition. The client wanted nothing superfluous — a home that supported work and contemplation above all else, with just enough space for books, objects, and light.',
+      'We preserved every original element worth preserving: the herringbone oak parquet and curved plasterwork. The contemporary elements — a long walnut desk, bespoke storage running the full width of the library wall — were designed to feel as though they had always been there.'
     ],
     images: [
-      { src: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=1400&q=80&auto=format&fit=crop', alt: 'Main living room — herringbone parquet, arched windows, plaster walls', wide: true },
-      { src: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=900&q=80&auto=format&fit=crop', alt: 'Library wall — full-height shelving, rolling ladder' },
-      { src: 'https://images.unsplash.com/photo-1586023492125-27b2a9ce0d4e?w=900&q=80&auto=format&fit=crop', alt: 'Dining area — circular marble table, Haussmann cornices' },
-      { src: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=900&q=80&auto=format&fit=crop', alt: 'Rooftop terrace — zinc planters, Paris skyline' }
+      { src: 'images/residential/modern-apt-lounge.png',  alt: 'Main room — abstract painting, sculpted sofa, globe pendant', wide: true },
+      { src: 'images/residential/modern-apt-dining.png',  alt: 'Dining area — gold chandelier, round table, tall windows' },
+      { src: 'images/residential/modern-apt-living.png',  alt: 'Living space — connected rooms, warm ambient light' }
     ]
   },
   {
     id: 'milan-showroom',
-    title: 'Curated Design Showroom',
+    title: 'Curated Retail Concept',
     category: 'Commercial',
     location: 'Milan, Italy',
     year: 2022,
     scope: 'Commercial Interior Design, Brand Environment',
     status: 'Completed',
-    coverImage: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1600&q=85&auto=format&fit=crop',
-    coverAlt: 'Design showroom in Milan — minimal backdrop for curated furniture and object display',
+    coverImage: 'images/commercial/inshades-store.png',
+    coverAlt: 'Eyewear retail concept — curved white shell structure, full-height display, open atrium',
     narrative: [
-      'A Brera-district showroom for an Italian furniture brand expanding into the European design market. The brief was a controlled environment that would make the furniture speak — backgrounds that had their own character without competing. The challenge was creating a space that would read beautifully in press photography but also feel hospitable and calm in person.',
-      'We worked with a palette of raw plaster, antique mirror, and polished concrete — surfaces that respond to light differently across the day and create the sense of a private apartment rather than a commercial showroom. The layout is deliberately non-retail, with furniture arranged as it would be lived with, not displayed.'
+      'A flagship retail concept designed to position the brand as an architectural destination within a major transit hub. The brief demanded visibility from a distance and intimacy on arrival — a difficult balance resolved through a curved white shell form that draws the eye and then encloses.',
+      'Inside, display is organised as a continuous landscape rather than discrete shelving units. Product is at eye level throughout, and the structure itself acts as a light diffuser, softening the ambient brightness of the surrounding concourse into something more considered.'
     ],
     images: [
-      { src: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1400&q=80&auto=format&fit=crop', alt: 'Showroom main space — raw plaster, editorial display', wide: true },
-      { src: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900&q=80&auto=format&fit=crop', alt: 'Object vignette — considered grouping on stone plinth' },
-      { src: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80&auto=format&fit=crop', alt: 'Consultation room — soft seating, antique mirror' }
+      { src: 'images/commercial/inshades-store.png',        alt: 'Retail shell — curved white structure, full-height display, open atrium', wide: true },
+      { src: 'images/commercial/la-casa-habano-kiosk.png',  alt: 'Kiosk concept — premium retail pod, airport environment' }
     ]
   },
   {
@@ -141,17 +135,16 @@ const PROJECTS = [
     year: 2023,
     scope: 'Interior Design, Conservation Advisory',
     status: 'Completed',
-    coverImage: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600&q=85&auto=format&fit=crop',
-    coverAlt: 'Heritage villa in Lisbon — azulejo tiles, contemporary intervention, warm layering',
+    coverImage: 'images/residential/apt-armchair.jpg',
+    coverAlt: 'Sitting room — olive velvet armchair, tall plant, herringbone floor, period mouldings',
     narrative: [
-      'A 19th-century villa in Belém, Lisbon, requiring sympathetic renovation and a new interior language that respected the original architecture without rendering the house museum-like. The client — a collector of contemporary Portuguese art — needed something more alive than a restoration.',
-      'We worked with the original azulejo panels, iron balustrades, and shuttered windows as the fixed backdrop, introducing contemporary furniture and lighting in conversation with these elements rather than in opposition. The art collection became the connective tissue: each room is designed around a specific artwork, allowing the collection to structure the spatial experience.'
+      'A 19th-century villa requiring sympathetic renovation and a new interior language that respected the original architecture without rendering the house museum-like. The client — a collector of contemporary art — needed something more alive than a restoration.',
+      'We worked with the original architectural features as the fixed backdrop, introducing contemporary furniture and lighting in conversation with these elements rather than in opposition. The art collection became the connective tissue: each room is designed around a specific artwork, allowing the collection to structure the spatial experience.'
     ],
     images: [
-      { src: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80&auto=format&fit=crop', alt: 'Main salon — azulejo feature wall, contemporary seating', wide: true },
-      { src: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=900&q=80&auto=format&fit=crop', alt: 'Entrance hall — original iron staircase, new terrazzo floor' },
-      { src: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=900&q=80&auto=format&fit=crop', alt: 'Garden room — arched windows, views to Tagus' },
-      { src: 'https://images.unsplash.com/photo-1586023492125-27b2a9ce0d4e?w=900&q=80&auto=format&fit=crop', alt: 'Library — floor to ceiling books, single reading chair' }
+      { src: 'images/residential/apt-armchair.jpg',  alt: 'Sitting room — statement chair, large plant, herringbone parquet', wide: true },
+      { src: 'images/residential/apt-kitchen.jpg',   alt: 'Kitchen — island, walnut cabinetry, open to reception' },
+      { src: 'images/residential/apt-bathroom.jpg',  alt: 'Bathroom — teal walls, ornate mirror, brass fittings' }
     ]
   },
   {
@@ -162,16 +155,16 @@ const PROJECTS = [
     year: 2024,
     scope: 'Interior Styling & FF&E Refresh',
     status: 'Completed',
-    coverImage: 'https://images.unsplash.com/photo-1616046229478-9901369be34c?w=1600&q=85&auto=format&fit=crop',
-    coverAlt: 'Coastal apartment in Marseille — linen, rattan, and sunbleached tones',
+    coverImage: 'images/residential/modern-apt-living.png',
+    coverAlt: 'Light-filled living space — cream sofa, teal accent, warm layered lighting',
     narrative: [
-      'A seaside apartment in the 7th arrondissement of Marseille, owned by a Paris-based couple as a summer base. The brief was a complete restyling without structural intervention — reimagining the space entirely through object selection, textiles, lighting, and art.',
-      'We worked with the existing architecture — a 1960s block with generous balconies and direct sea views — and built a palette around what the light and setting demanded: raw linen, sun-faded terracotta, woven rattan, and a small but carefully considered collection of Mediterranean ceramics.'
+      'A seaside apartment owned by a couple as a summer base. The brief was a complete restyling without structural intervention — reimagining the space entirely through object selection, textiles, lighting, and art.',
+      'We worked with the existing architecture and built a palette around what the light and setting demanded: warm neutrals, considered accent colour, and a small but carefully chosen collection of objects that reward closer attention.'
     ],
     images: [
-      { src: 'https://images.unsplash.com/photo-1616046229478-9901369be34c?w=1400&q=80&auto=format&fit=crop', alt: 'Living area — linen sofas, rattan, sea light', wide: true },
-      { src: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80&auto=format&fit=crop', alt: 'Dining corner — woven pendants, terracotta tiles' },
-      { src: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=900&q=80&auto=format&fit=crop', alt: 'Balcony — linen cushions, ceramic plant pots' }
+      { src: 'images/residential/modern-apt-living.png',   alt: 'Living area — cream sofa, teal sideboard, warm lamp', wide: true },
+      { src: 'images/residential/modern-apt-lounge.png',   alt: 'Lounge corner — art, sculpted furniture, pendants' },
+      { src: 'images/residential/modern-apt-openplan.png', alt: 'Open plan — garden view, relaxed seating' }
     ]
   },
   {
@@ -182,17 +175,16 @@ const PROJECTS = [
     year: 2023,
     scope: 'Full Interior Design & Art Advisory',
     status: 'Completed',
-    coverImage: 'https://images.unsplash.com/photo-1560185127-6a8d6ea47eab?w=1600&q=85&auto=format&fit=crop',
-    coverAlt: 'Dubai penthouse — sculptural forms, curated art, floor-to-ceiling city views',
+    coverImage: 'images/commercial/cigar-store-luxury.png',
+    coverAlt: 'Luxury interior — dark lacquer, brass accents, curated display cases',
     narrative: [
-      'A full-floor penthouse in Downtown Dubai, designed for a client who travels extensively and wanted a home that felt simultaneously global and deeply personal. The collection of art and objects — gathered over fifteen years across Tokyo, Milan, and New York — was the starting point for everything.',
-      'The design creates a sequence of moods across the 750 m² floor plate: an entry that is dramatic and vertical, a living zone that opens entirely to the skyline, and a more contained, intimate series of private rooms that feel as private and still as anywhere else in the world at that altitude.'
+      'A full-floor penthouse designed for a client who travels extensively and wanted a home that felt simultaneously global and deeply personal. The collection of art and objects — gathered over fifteen years across multiple cities — was the starting point for everything.',
+      'The design creates a sequence of moods across the floor plate: an entry that is dramatic and vertical, a living zone that opens to the skyline, and a more contained, intimate series of private rooms that feel as still and considered as anywhere else in the world at that altitude.'
     ],
     images: [
-      { src: 'https://images.unsplash.com/photo-1560185127-6a8d6ea47eab?w=1400&q=80&auto=format&fit=crop', alt: 'Main living space — double height, skyline view', wide: true },
-      { src: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=900&q=80&auto=format&fit=crop', alt: 'Dining room — round table, art installation' },
-      { src: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80&auto=format&fit=crop', alt: 'Primary suite — warm tones, city dawn view' },
-      { src: 'https://images.unsplash.com/photo-1586023492125-27b2a9ce0d4e?w=900&q=80&auto=format&fit=crop', alt: 'Library — curved shelving, rare book collection' }
+      { src: 'images/commercial/cigar-store-luxury.png',  alt: 'Main space — dark lacquer, brass fittings, curated displays', wide: true },
+      { src: 'images/commercial/cigar-lounge.png',        alt: 'Lounge — leather seating, fireplace, walnut shelving' },
+      { src: 'images/commercial/la-casa-habano-kiosk.png', alt: 'Entry kiosk concept — premium brand environment' }
     ]
   }
 ];
@@ -200,14 +192,13 @@ const PROJECTS = [
 /* ── PROJECT FILTER (projects.html) ──────────────────────── */
 (function initFilter() {
   const chips = document.querySelectorAll('.filter-chip');
-  if (!chips.length) return; // Not on projects page
+  if (!chips.length) return;
 
   const cards    = document.querySelectorAll('.project-card[data-category]');
   const noResult = document.getElementById('noResults');
 
   chips.forEach((chip) => {
     chip.addEventListener('click', () => {
-      // Update active chip
       chips.forEach((c) => {
         c.classList.remove('active');
         c.removeAttribute('aria-pressed');
@@ -233,92 +224,57 @@ const PROJECTS = [
 
 /* ── PROJECT DETAIL PAGE ─────────────────────────────────── */
 (function initProjectDetail() {
-  const titleEl    = document.getElementById('projectTitle');
-  if (!titleEl) return; // Not on project detail page
+  const titleEl = document.getElementById('projectTitle');
+  if (!titleEl) return;
 
-  // Parse the project ID from the URL query string
-  const params    = new URLSearchParams(window.location.search);
-  const id        = params.get('id');
-  const project   = PROJECTS.find((p) => p.id === id);
+  const params  = new URLSearchParams(window.location.search);
+  const id      = params.get('id');
+  const project = PROJECTS.find((p) => p.id === id);
 
   if (!project) {
     titleEl.textContent = 'Project not found.';
     return;
   }
 
-  // ── Page meta
   document.title = `${project.title} — Zahra Interior Architecture`;
   const metaDesc = document.getElementById('metaDesc');
-  if (metaDesc) {
-    metaDesc.setAttribute('content', `${project.title} · ${project.location} · ${project.year} — Zahra Interior Architecture`);
-  }
+  if (metaDesc) metaDesc.setAttribute('content', `${project.title} · ${project.location} · ${project.year} — Zahra Interior Architecture`);
 
-  // ── Cover image
   const cover = document.getElementById('projectCover');
-  if (cover) {
-    cover.src = project.coverImage;
-    cover.alt = project.coverAlt;
-  }
+  if (cover) { cover.src = project.coverImage; cover.alt = project.coverAlt; }
 
-  // ── Header
   const catEl = document.getElementById('projectCategory');
   if (catEl) catEl.textContent = project.category;
   titleEl.textContent = project.title;
 
-  // ── Overview
-  const setEl = (id, val) => {
-    const el = document.getElementById(id);
-    if (el) el.textContent = val;
-  };
+  const setEl = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
   setEl('projectLocation', project.location);
-  setEl('projectYear', project.year);
-  setEl('projectScope', project.scope);
-  setEl('projectStatus', project.status);
+  setEl('projectYear',     project.year);
+  setEl('projectScope',    project.scope);
+  setEl('projectStatus',   project.status);
 
-  // ── Narrative
   const narrativeEl = document.getElementById('projectNarrative');
   if (narrativeEl && project.narrative) {
-    narrativeEl.innerHTML = project.narrative
-      .map((para) => `<p>${para}</p>`)
-      .join('');
+    narrativeEl.innerHTML = project.narrative.map((p) => `<p>${p}</p>`).join('');
   }
 
-  // ── Gallery
   const galleryEl = document.getElementById('projectGallery');
   if (galleryEl && project.images) {
     galleryEl.innerHTML = project.images
-      .map((img) => `
-        <img
-          src="${img.src}"
-          alt="${img.alt}"
-          loading="lazy"
-          ${img.wide ? 'class="wide"' : ''}
-        >
-      `)
+      .map((img) => `<img src="${img.src}" alt="${img.alt}" loading="lazy"${img.wide ? ' class="wide"' : ''}>`)
       .join('');
   }
 
-  // ── Project navigation (prev / next)
   const currentIndex = PROJECTS.findIndex((p) => p.id === id);
-  const prevProject  = PROJECTS[currentIndex - 1];
-  const nextProject  = PROJECTS[currentIndex + 1];
+  const prev = PROJECTS[currentIndex - 1];
+  const next = PROJECTS[currentIndex + 1];
 
   const prevLink  = document.getElementById('prevProject');
   const nextLink  = document.getElementById('nextProject');
-  const prevTitle = document.getElementById('prevProjectTitle');
-  const nextTitle = document.getElementById('nextProjectTitle');
 
-  if (prevLink && prevProject) {
-    prevLink.href = `project-detail.html?id=${prevProject.id}`;
-    if (prevTitle) prevTitle.textContent = prevProject.title;
-  } else if (prevLink) {
-    prevLink.style.visibility = 'hidden';
-  }
+  if (prevLink && prev) { prevLink.href = `project-detail.html?id=${prev.id}`; document.getElementById('prevProjectTitle').textContent = prev.title; }
+  else if (prevLink) prevLink.style.visibility = 'hidden';
 
-  if (nextLink && nextProject) {
-    nextLink.href = `project-detail.html?id=${nextProject.id}`;
-    if (nextTitle) nextTitle.textContent = nextProject.title;
-  } else if (nextLink) {
-    nextLink.style.visibility = 'hidden';
-  }
+  if (nextLink && next) { nextLink.href = `project-detail.html?id=${next.id}`; document.getElementById('nextProjectTitle').textContent = next.title; }
+  else if (nextLink) nextLink.style.visibility = 'hidden';
 })();
