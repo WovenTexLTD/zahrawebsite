@@ -1,5 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/:path*", "destination": "/coming-soon.html" }
+  "redirects": [
+    {
+      "source": "/((?!coming-soon).*)",
+      "destination": "/coming-soon.html",
+      "permanent": false
+    }
   ]
 }
